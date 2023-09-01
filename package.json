@@ -1,0 +1,17 @@
+{
+  "name": "3d",
+  "version": "1.0.0",
+  "description": "3d cube",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "gaby",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.156.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
