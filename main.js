@@ -19,7 +19,7 @@ document.body.appendChild( renderer.domElement );
 
 //creating a cube
 //BoxGeometry contains all the vertices and faces of cube
-const geometry = new THREE.BoxGeometry( 1, 1, 1, 1);
+const geometry = new THREE.RingGeometry(1,2);
 //material to color cube - materials take an object of props
 const material = new THREE.MeshBasicMaterial( {color: 0xd2ff2B});
 //Mesh - obj that takes geometry & applies material to it to apply it to scene
