@@ -21,7 +21,7 @@ document.body.appendChild( renderer.domElement );
 //BoxGeometry contains all the vertices and faces of cube
 const geometry = new THREE.BoxGeometry( 1, 1, 1, 1);
 //material to color cube - materials take an object of props
-const material = new THREE.MeshBasicMaterial( {color: 0x00ff00});
+const material = new THREE.MeshBasicMaterial( {color: 0xd2ff2B});
 //Mesh - obj that takes geometry & applies material to it to apply it to scene
 const cube = new THREE.Mesh( geometry, material );
 //whatever we add to scene.add() will be added to coordinates (0,0,0) -> causes the camera and cube to be inside each other
